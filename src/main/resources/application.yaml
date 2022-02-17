@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: log-parser
+
+app-config:
+  log-analyser:
+    threshold: 4
+    batch-size: 2 #This can be in 1000s
+
